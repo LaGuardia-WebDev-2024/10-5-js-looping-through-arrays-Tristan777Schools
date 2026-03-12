@@ -12,6 +12,15 @@ setup = function() {
     text("⸙", 420-i, 390);
   }  
 
+  var myAnimals = ["🐕", "🦔", "🐈", "🐝", "🐁"];
+
+  var animalNum = 0;
+  while(animalNum < myAnimals.length) {
+    text(myAnimals[animalNum], 10, 50+animalNum*70);
+    animalNum++;
+  }
+
+
   
 };
 
